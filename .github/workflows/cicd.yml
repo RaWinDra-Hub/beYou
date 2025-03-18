@@ -26,7 +26,7 @@ jobs:
           password: ${{ Docker123@ }}
       - name: Push Docker Image
         run: |
-          docker tag online-book-store:${{ github.sha }} ${{ ravi445 }}/online-book-store:${{ github.sha }}
-          docker tag online-book-store:${{ github.sha }} ${{ ravi445 }}/online-book-store:latest
-          docker push ${{ ravi445 }}/online-book-store:${{ github.sha }}
-          docker push ${{ ravi445 }}/online-book-store:latest
+          docker beYou:${{ github.sha }} ${{ ravi445 }}/beYou:${{ github.sha }}
+          docker beYou:${{ github.sha }} ${{ ravi445 }}/beYou:latest
+          docker push ravi445/beYou:${{ github.sha }}
+          docker push ravi445/beYou:latest
