@@ -1,5 +1,5 @@
 # Base image: OpenJDK 17 (Java runtime)
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 
 # Working directory inside the container
 WORKDIR /app
