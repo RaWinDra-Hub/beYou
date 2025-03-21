@@ -45,4 +45,4 @@ jobs:
           docker tag beyou:${{ github.sha }} ravi445/beyou:${{ github.sha }}
           docker tag beyou:${{ github.sha }} ravi445/beyou:latest
           docker push ravi445/beyou:${{ github.sha }}
-          docker push ravi445/beyou:latest
+          docker push ravi445/beyou:${{ github.sha }}
